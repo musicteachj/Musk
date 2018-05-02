@@ -46,6 +46,19 @@ body {
 	border-radius: 5px;
 }
 
+.containerSpace {
+	background-color: ;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.spaceRow {
+	margin-top: 10px;
+}
+
 .card {
 	margin-top: 10px;
 	margin-bottom: 20px !important;
