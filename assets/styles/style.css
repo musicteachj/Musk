@@ -10,7 +10,8 @@ html {
 }
 
 body {
-	background-color: blue;
+	background-color: #323232;
+	color: white;
 }
 
 .jumbotron {
@@ -19,6 +20,7 @@ body {
 	margin-top: 20px;
 	text-align: center;
 	padding: 10px;
+	color: #323232;
 }
 
 .headingImg {
@@ -36,8 +38,8 @@ body {
 	margin-top: -16px;
 }
 
-.container1, .teslaContainer {
-	background-color: purple;
+.container1, .teslaContainer, .solarContainer {
+	background-color: ;
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
@@ -47,8 +49,15 @@ body {
 .card {
 	margin-top: 10px;
 	margin-bottom: 20px !important;
+	color: #323232;
 }
 
 .w-100 {
 	height: 400px;
+}
+
+.solarContainer p {
+	margin: 20px 0px 20px 0px;
+	margin-left: 7%;
+	margin-right: 7%;
 }
