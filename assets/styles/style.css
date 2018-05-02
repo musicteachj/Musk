@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: blue;
+}
+
+.jumbotron {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	padding: 10px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50% !important;
+	margin-left: 7%;
+	margin-right: 7%;
+}
