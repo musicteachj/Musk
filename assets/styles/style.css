@@ -14,6 +14,7 @@ body {
 	color: white;
 }
 
+/* Jumbotron header for all pages */
 .jumbotron {
 	width: 70%;
 	margin: 0 auto;
@@ -38,25 +39,14 @@ body {
 	margin-top: -16px;
 }
 
-.container1, .teslaContainer, .solarContainer {
-	background-color: ;
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
-	border-radius: 5px;
-}
-
-.containerSpace {
+/* Container for all pages */
+.container1 {
 	background-color: ;
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 30px;
-}
-
-.spaceRow {
-	margin-top: 10px;
 }
 
 .card {
