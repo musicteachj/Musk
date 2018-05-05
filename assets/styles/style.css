@@ -39,6 +39,34 @@ body {
 	margin-top: -16px;
 }
 
+.solarLogo {
+	height: 80px;
+	width: 120px;
+	margin-right: 5%;
+	margin-top: -16px;
+}
+
+.spaceLogo {
+	height: 80px;
+	width: 200px;
+	margin-right: 5%;
+	margin-top: -16px;
+}
+
+.boringLogo {
+	height: 80px;
+	width: 160px;
+	margin-right: 5%;
+	margin-top: -16px;
+}
+
+.neuraLogo {
+	height: 80px;
+	width: 160px;
+	margin-right: 5%;
+	margin-top: -16px;
+}
+
 /* Container for all pages */
 .container1 {
 	background-color: ;
