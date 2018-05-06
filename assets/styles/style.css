@@ -12,6 +12,11 @@ html {
 body {
 	background-color: #002662;
 	color: white;
+	background: url(../images/back3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Jumbotron header for all pages */
@@ -96,4 +101,5 @@ body {
 
 .btn {
 	width: 110px;
+	background-color: #136686;
 } 
