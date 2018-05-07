@@ -101,5 +101,9 @@ body {
 
 .btn {
 	width: 110px;
-	background-color: #136686;
+	background-color: #2483A5;
 } 
+
+.blockquote-footer {
+	color: white;
+}
