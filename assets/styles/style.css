@@ -20,13 +20,14 @@ body {
 }
 
 /* Jumbotron header for all pages */
-.jumbotron {
-	width: 70%;
+.jumbotrons {
+	background-color: ;
+	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
 	text-align: center;
 	padding: 10px;
-	color: #323232;
+	color: white;
 }
 
 .headingImg {
@@ -100,10 +101,15 @@ body {
 }
 
 .btn {
-	width: 110px;
+	width: 146px;
 	background-color: #2483A5;
 } 
 
 .blockquote-footer {
 	color: white;
+}
+
+[class=form-control] {
+	height: 70px;
+	text-align: center;
 }
