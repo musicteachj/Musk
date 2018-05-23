@@ -5,6 +5,14 @@ $(document).ready(function() {
 	$('.jumbotrons').css('display', 'none');
 	$('.container1').css('display', 'none');
 
+	// Grabs each .card class
+	// Find first class .btn-info within
+	// Find class .card-title within
+	// Appends text from .card-title to .btn-info with "Learn about "
+	$('.card').each(function() {
+		$(this).find('.btn-info').first().text("Learn about " + $(this).find('.card-title').text())
+	});
+
 	// Fade In Elements 
 	$('.jumbotrons').fadeIn(1500);
 	$('.container1').fadeIn(2500);
@@ -54,11 +62,23 @@ $(document).ready(function() {
 		var inputOne = $("#formOne").val();
 		var inputTwo = $("#formTwo").val();
 		// Grab table element and append variable data and create new tr and td
-		$("table").append("<tr>" + "<td>" + inputOne + "</td>" + "<td>" + inputTwo + "</td" + "</tr>");
+		$("table").append("<tr>" + "<td role='cell'>" + inputOne + "</td>" + "<td>" + inputTwo + "</td" + "</tr>");
 		// Assign inputs back to empty
 		$("#formOne").val("");
 		$("#formTwo").val("");
 	});
+
+	// Grab class .table
+	// Finds first instance of tr and add attribute role="row"
+	$(".table").each(function() {
+		$(this).find("tr:first").attr("role", "row");
+	});
+
+	//Grabs class .table
+	// Find each tr, find first td within tr and add attribute role="cell"
+	$(".table").each(function() {
+		$(this).find("tr").find("td:first").attr("role", "cell");
+	})
 
 
 
